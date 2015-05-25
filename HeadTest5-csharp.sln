@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B6C18881-D747-D240-B125-57957B2577EE}") = "HeadTest5", "Assembly-CSharp-vs.csproj", "{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}"
+EndProject
+Project("{B6C18881-D747-D240-B125-57957B2577EE}") = "HeadTest5", "Assembly-CSharp-Editor-vs.csproj", "{A9F2A53E-23B0-9760-1B57-D36452AB121E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F2A53E-23B0-9760-1B57-D36452AB121E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F2A53E-23B0-9760-1B57-D36452AB121E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F2A53E-23B0-9760-1B57-D36452AB121E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F2A53E-23B0-9760-1B57-D36452AB121E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																																																																																																															GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
