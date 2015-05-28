@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E0371B57-F5E9-0ABB-7866-14EB2D5B4EFF}</ProjectGuid>
+	<ProjectGuid>{18FAA370-0062-81EB-2160-0B7DDAAEBECB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,22 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimationController.cs" />
      <Compile Include="Assets\Scripts\Emotions.cs" />
-     <Compile Include="Assets\Scripts\EmotionsQueueElement.cs" />
      <Compile Include="Assets\Scripts\FocusPointMover.cs" />
-     <Compile Include="Assets\Scripts\GoogleTTS.cs" />
-     <Compile Include="Assets\Scripts\MSAnimationController.cs" />
-     <Compile Include="Assets\Scripts\MicrosoftTTS.cs" />
-     <Compile Include="Assets\Scripts\SpeakingController.cs" />
-     <Compile Include="Assets\Scripts\StringParser.cs" />
-     <Compile Include="Assets\Scripts\VoiceSpeaker.cs" />
+     <Compile Include="Assets\Scripts\SpeechMessagesReciever.cs" />
      <Compile Include="Assets\Scripts\eyeBlinking.cs" />
      <Compile Include="Assets\Scripts\lookAt.cs" />
      <None Include="Assets\macaw\license.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Interop.SpeechLib">
- <HintPath>C:/Users/Надир/Documents/Unity Projects/HeadTest5/Assets/Interop.SpeechLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
