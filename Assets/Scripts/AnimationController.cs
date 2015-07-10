@@ -9,18 +9,19 @@ using System.Collections.Generic;
 public static class AnimationController
 {
     static string tempFolder = System.IO.Path.GetTempPath();
-    static int[] aPhoneme = { 10, 11, 12, 15, 16 };
-    static int[] oPhoneme = { 13, 14, 35, 36 };
-    static int[] yPhoneme = { 22, 23, 43, 44 };
-    static int[] blPhoneme = { };
+    static int[] aPhoneme = {/*eng*/ 10, 11, 12, 15, 16 /*rus*/,97, 601, 652};
+    static int[] oPhoneme = {/*eng*/ 13, 14, 35, 36,/*rus*/ 596 };
+    static int[] yPhoneme = {/*eng*/ 22, 23, 43, 44,/*rus*/ 117 };
+    static int[] blPhoneme = {/*rus*/616};
     static int[] yaPhoneme = { 47 };
-    static int[] iPhoneme = { 27, 28 };
-    static int[] eePhoneme = { 21 };
+    static int[] iPhoneme = {/*eng*/ 27, 28, /*rus*/ 105, 618 };
+    static int[] eePhoneme = {/*eng*/ 21, /*rus*/ 603};
     static int[] vPhoneme = { 45, 46 };
     static int[] sPhoneme = { 19, 26, 30, 31, 38, 39, 41, 42 };
     static int[] mPhoneme = { 17, 24, 25, 32, 33, 34, 37 };
     static int[] shPhoneme = { 18, 20, 29, 40, 48, 49 }; //sorted by looking for https://msdn.microsoft.com/en-us/library/ms717239(v=vs.85).aspx
-    static int[] alwaysAnimatable = { 7, 10, 11, 12, 13, 14, 15, 16, 21, 22, 23, 27, 28, 35, 36, 43, 44, 47 };
+    static int[] alwaysAnimatable = {/*eng*/ 7, 10, 11, 12, 13, 14, 15, 16, 21, 22, 23, 27, 28, 35, 36, 43, 44, 47,
+                                     /*rus*/ 97, 105, 117, 596, 603, 616, 618, 601, 652};
     
     public static string getTrigger(int c)
     {
