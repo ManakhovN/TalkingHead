@@ -22,8 +22,11 @@ public class SpeechMessagesReciever : MonoBehaviour {
     void Update () {
         this.StartCoroutine(Connect("127.0.0.1", "Ping"));
         if (audioSource.isPlaying == false)
-             this.StartCoroutine(AnimationController.LoadClip(audioSource));
-        else        
+        {
+            this.StartCoroutine(AnimationController.LoadClip(audioSource));
+            this.GetComponent<Emotions>().setEmotionByName("normal");
+        }
+        else
             AnimationController.clearFolder();
     }
 
@@ -40,10 +43,14 @@ public class SpeechMessagesReciever : MonoBehaviour {
             String responseData = String.Empty;
             Int32 bytes = stream.Read(data, 0, data.Length);
             responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+            if (responseData.Equals("done"))
+                audioSource.Stop();
+            else 
             if (Emotions.isEmotion(responseData)) {
                 this.GetComponent<Emotions>().setEmotionByName(responseData);
             }
             else {
+                
                 int PhonemeId = Convert.ToInt32(responseData);
                 if (AnimationController.isAlwaysAnimatable(PhonemeId) && PhonemeId != previousPhonemeId)
                     animator.SetTrigger(AnimationController.getTrigger(PhonemeId));

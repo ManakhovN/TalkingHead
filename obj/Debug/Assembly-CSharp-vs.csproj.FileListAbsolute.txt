@@ -12,3 +12,13 @@ C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\ICSharpC
 C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\Надир\Documents\Unity Projects\TalkingHead\obj\Debug\Assembly-CSharp.dll
 C:\Users\Надир\Documents\Unity Projects\TalkingHead\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Надир\Documents\Unity Projects\TalkingHead\Temp\bin\Debug\UnityEngine.Analytics.xml

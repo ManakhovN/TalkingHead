@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\ButtonsController.cs" />
      <Compile Include="Assets\Scripts\Emotions.cs" />
      <Compile Include="Assets\Scripts\FocusPointMover.cs" />
      <Compile Include="Assets\Scripts\SpeechMessagesReciever.cs" />

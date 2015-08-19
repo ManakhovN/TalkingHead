@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 public static class AnimationController
 {
-    static string tempFolder = System.IO.Path.GetTempPath();
+    static string tempFolder = "";
     static int[] aPhoneme = {/*eng*/ 10, 11, 12, 15, 16 /*rus*/,97, 601, 652};
     static int[] oPhoneme = {/*eng*/ 13, 14, 35, 36,/*rus*/ 596 };
     static int[] yPhoneme = {/*eng*/ 22, 23, 43, 44,/*rus*/ 117 };
@@ -64,8 +64,9 @@ public static class AnimationController
     public static void clearFolder()
     {
 
-        DirectoryInfo dir = new DirectoryInfo(tempFolder);
-        FileInfo[] info = dir.GetFiles("output.wav");
-        if (info.Length > 0) info[0].Delete();
+   //     DirectoryInfo dir = new DirectoryInfo(tempFolder);
+   //     FileInfo[] info = dir.GetFiles("output.wav");
+    //    if (info.Length > 0) info[0].Delete(); else Debug.Log("asdasd");
+        File.Delete(tempFolder+"output.wav");
     }
 }
